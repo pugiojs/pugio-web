@@ -1,5 +1,5 @@
 import { RequestService } from '@modules/request/request.service';
-import { Injectable } from 'khamsa';
+import { Injectable } from '@agros/core';
 import {
     MakeHandshakeRequestOptions,
     MakeHandshakeChannelResponseData,

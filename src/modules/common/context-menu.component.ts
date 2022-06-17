@@ -1,4 +1,4 @@
-import { Component } from 'khamsa';
+import { Component } from '@agros/core';
 import ContextMenu from '@modules/common/ContextMenu';
 
 @Component({

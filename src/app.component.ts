@@ -1,5 +1,7 @@
-import { lazy } from 'react';
-import { Component } from 'khamsa';
+import {
+    lazy,
+    Component,
+} from '@agros/core';
 import { LocaleService } from '@modules/locale/locale.service';
 import { ContainerComponent } from '@modules/container/container.component';
 import { ListenerComponent } from '@modules/container/listener.component';

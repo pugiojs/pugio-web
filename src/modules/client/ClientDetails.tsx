@@ -1,9 +1,6 @@
 import {
     FC,
     ReactNode,
-    useCallback,
-    useEffect,
-    useState,
 } from 'react';
 import Box, { BoxProps } from '@mui/material/Box';
 import Button from '@mui/material/Button';
@@ -19,7 +16,12 @@ import styled from '@mui/material/styles/styled';
 import SimpleBar from 'simplebar-react';
 import { useParams } from 'react-router-dom';
 import { useRequest } from 'ahooks';
-import { getContainer } from 'khamsa';
+import {
+    getContainer,
+    useCallback,
+    useEffect,
+    useState,
+} from '@agros/core';
 import { ClientService } from '@modules/client/client.service';
 import { LoadingComponent } from '@modules/brand/loading.component';
 import {

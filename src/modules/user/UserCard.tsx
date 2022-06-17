@@ -19,7 +19,7 @@ import {
     UserCardMenuProps,
 } from '@modules/user/user-card.interface';
 import clsx from 'clsx';
-import { getContainer } from 'khamsa';
+import { getContainer } from '@agros/core';
 import { UtilsService } from '@modules/utils/utils.service';
 import _ from 'lodash';
 import styled from '@mui/material/styles/styled';

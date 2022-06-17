@@ -1,4 +1,4 @@
-import { forwardContainer } from 'khamsa';
+import { forwardContainer } from '@agros/core';
 import {
     FC,
     memo,

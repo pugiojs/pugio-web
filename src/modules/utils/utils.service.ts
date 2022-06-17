@@ -1,4 +1,4 @@
-import { Injectable } from 'khamsa';
+import { Injectable } from '@agros/core';
 import { CaseTransformerService } from '@pugio/case-transformer';
 import _ from 'lodash';
 import {

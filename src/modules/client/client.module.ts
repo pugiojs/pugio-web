@@ -1,4 +1,4 @@
-import { Module } from 'khamsa';
+import { Module } from '@agros/core';
 import { ClientDashboardComponent } from '@modules/client/client-dashboard.component';
 import { ClientMenuItemComponent } from '@modules/client/client-menu-item.component';
 import { ClientWorkstationComponent } from '@modules/client/client-workstation.component';

@@ -1,4 +1,4 @@
-import { Module } from 'khamsa';
+import { Module } from '@agros/core';
 import { TabComponent } from '@modules/tab/tab.component';
 
 @Module({

@@ -1,10 +1,10 @@
+import { FC } from 'react';
 import {
-    FC,
+    getContainer,
     useEffect,
     useState,
     useCallback,
-} from 'react';
-import { getContainer } from 'khamsa';
+} from '@agros/core';
 import {
     ChannelListProps,
     ChannelListCategory,

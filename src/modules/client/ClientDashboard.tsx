@@ -1,13 +1,13 @@
+import { FC } from 'react';
+import Box from '@mui/material/Box';
+import Icon from '@mui/material/Icon';
 import {
-    FC,
+    getContainer,
     useCallback,
     useEffect,
     useRef,
     useState,
-} from 'react';
-import Box from '@mui/material/Box';
-import Icon from '@mui/material/Icon';
-import { getContainer } from 'khamsa';
+} from '@agros/core';
 import {
     NavLink,
     Outlet,

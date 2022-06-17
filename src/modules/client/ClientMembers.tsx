@@ -1,10 +1,4 @@
-import {
-    FC,
-    useCallback,
-    useEffect,
-    useState,
-    useRef,
-} from 'react';
+import { FC } from 'react';
 import Box, { BoxProps } from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import Icon from '@mui/material/Icon';
@@ -14,7 +8,13 @@ import ListItemButton from '@mui/material/ListItemButton';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import clsx from 'clsx';
-import { getContainer } from 'khamsa';
+import {
+    getContainer,
+    useCallback,
+    useEffect,
+    useState,
+    useRef,
+} from '@agros/core';
 import { UtilsService } from '@modules/utils/utils.service';
 import {
     ClientMembership,

@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import { getContainer } from 'khamsa';
+import { getContainer } from '@agros/core';
 import clsx from 'clsx';
 import Box, { BoxProps } from '@mui/material/Box';
 import { ChannelPanelProps } from '@modules/channel/channel.interface';

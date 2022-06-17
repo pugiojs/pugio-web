@@ -1,4 +1,4 @@
-import { Component } from 'khamsa';
+import { Component } from '@agros/core';
 import ChannelPanel from '@modules/channel/ChannelPanel';
 import { LoadingComponent } from '@modules/brand/loading.component';
 import { ExceptionComponent } from '@modules/brand/exception.component';

@@ -12,7 +12,7 @@ import DialogContent from '@mui/material/DialogContent';
 import Button from '@mui/material/Button';
 import Icon from '@mui/material/Icon';
 import IconButton from '@mui/material/IconButton';
-import { getContainer } from 'khamsa';
+import { getContainer } from '@agros/core';
 import { LocaleService } from '@modules/locale/locale.service';
 import SimpleBar from 'simplebar-react';
 import clsx from 'clsx';

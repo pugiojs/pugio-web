@@ -1,4 +1,4 @@
-import { Component } from 'khamsa';
+import { Component } from '@agros/core';
 import { Navigate } from 'react-router-dom';
 
 @Component({

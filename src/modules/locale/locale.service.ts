@@ -4,7 +4,7 @@ import {
     useEffect,
     useState,
 } from 'react';
-import { Injectable } from 'khamsa';
+import { Injectable } from '@agros/core';
 import _ from 'lodash';
 import Mustache from 'mustache';
 import {

@@ -1,6 +1,6 @@
 import {
     Module,
-} from 'khamsa';
+} from '@agros/core';
 import { StoreService } from '@modules/store/store.service';
 import {
     AppModule as WebTerminalAppModule,

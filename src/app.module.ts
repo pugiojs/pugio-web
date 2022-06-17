@@ -1,4 +1,4 @@
-import { Module } from 'khamsa';
+import { Module } from '@agros/core';
 import { AppComponent } from '@/app.component';
 import { RequestModule } from '@modules/request/request.module';
 import { UtilsModule } from '@modules/utils/utils.module';

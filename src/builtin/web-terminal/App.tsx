@@ -1,16 +1,16 @@
-import {
-    FC,
-    useCallback,
-    useEffect,
-    useRef,
-    useState,
-} from 'react';
+import { FC } from 'react';
 import Box, { BoxProps } from '@mui/material/Box';
 import Divider from '@mui/material/Divider';
 import Button from '@mui/material/Button';
 import Icon from '@mui/material/Icon';
 import IconButton from '@mui/material/IconButton';
-import { getContainer } from 'khamsa';
+import {
+    getContainer,
+    useCallback,
+    useEffect,
+    useRef,
+    useState,
+} from '@agros/core';
 import { LoadedChannelProps } from '@modules/store/store.interface';
 import { Terminal } from '@pugio/xterm';
 import _ from 'lodash';

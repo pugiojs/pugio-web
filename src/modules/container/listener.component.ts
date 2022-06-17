@@ -1,4 +1,4 @@
-import { Component } from 'khamsa';
+import { Component } from '@agros/core';
 import { StoreService } from '@modules/store/store.service';
 import { UtilsService } from '@modules/utils/utils.service';
 import Listener from './Listener';

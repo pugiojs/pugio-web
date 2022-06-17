@@ -4,7 +4,7 @@ import clsx from 'clsx';
 import { ExceptionProps } from '@modules/brand/exception.interface';
 import Typography from '@mui/material/Typography';
 import styled from '@mui/material/styles/styled';
-import { getContainer } from 'khamsa';
+import { getContainer } from '@agros/core';
 import { BrandService } from '@modules/brand/brand.service';
 
 const ExceptionWrapper = styled(Box)(({ theme }) => {

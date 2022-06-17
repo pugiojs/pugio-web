@@ -8,7 +8,7 @@ import Box, { BoxProps } from '@mui/material/Box';
 import Icon from '@mui/material/Icon';
 import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
-import { getContainer } from 'khamsa';
+import { getContainer } from '@agros/core';
 import { TabProps } from '@modules/tab/tab.interface';
 import { LoadingComponent } from '@modules/brand/loading.component';
 import { LocaleService } from '@modules/locale/locale.service';

@@ -13,7 +13,7 @@ import ListItemButton from '@mui/material/ListItemButton';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import TextField from '@mui/material/TextField';
-import { getContainer } from 'khamsa';
+import { getContainer } from '@agros/core';
 import { LocaleService } from '@modules/locale/locale.service';
 import SimpleBar from 'simplebar-react';
 import _ from 'lodash';

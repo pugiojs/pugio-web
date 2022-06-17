@@ -1,4 +1,4 @@
-import { getContainer } from 'khamsa';
+import { getContainer } from '@agros/core';
 import {
     FC,
     useEffect,

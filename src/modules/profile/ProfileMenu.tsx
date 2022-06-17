@@ -12,7 +12,7 @@ import IconButton from '@mui/material/IconButton';
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
-import { forwardContainer } from 'khamsa';
+import { forwardContainer } from '@agros/core';
 import { LocaleService } from '@modules/locale/locale.service';
 import { ProfileService } from '@modules/profile/profile.service';
 import { useRequest } from 'ahooks';

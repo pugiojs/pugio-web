@@ -1,4 +1,4 @@
-import { Injectable } from 'khamsa';
+import { Injectable } from '@agros/core';
 
 declare const ORIGIN: string;
 

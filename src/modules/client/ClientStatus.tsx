@@ -1,13 +1,13 @@
 import Box from '@mui/material/Box';
 import styled from '@mui/material/styles/styled';
-import { getContainer } from 'khamsa';
 import {
-    FC,
+    getContainer,
     useCallback,
     useEffect,
     useRef,
     useState,
-} from 'react';
+} from '@agros/core';
+import { FC } from 'react';
 import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
 import Icon from '@mui/material/Icon';

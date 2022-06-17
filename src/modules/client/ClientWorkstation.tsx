@@ -10,7 +10,7 @@ import Box from '@mui/material/Box';
 import Icon from '@mui/material/Icon';
 import IconButton from '@mui/material/IconButton';
 import Button from '@mui/material/Button';
-import { getContainer } from 'khamsa';
+import { getContainer } from '@agros/core';
 import { TabProps } from '@modules/tab/tab.interface';
 import { TabComponent } from '@modules/tab/tab.component';
 import { ChannelPanelComponent } from '@modules/channel/channel-panel.component';

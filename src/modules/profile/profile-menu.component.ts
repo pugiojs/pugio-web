@@ -1,4 +1,4 @@
-import { Component } from 'khamsa';
+import { Component } from '@agros/core';
 import { LocaleService } from '@modules/locale/locale.service';
 import { ProfileService } from '@modules/profile/profile.service';
 import ProfileMenu from '@modules/profile/ProfileMenu';
