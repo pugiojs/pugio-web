@@ -1,15 +1,17 @@
-import { forwardContainer } from '@agros/core';
 import {
-    FC,
+    forwardContainer,
     memo,
-    PropsWithChildren,
     useEffect,
     useState,
+} from '@agros/core';
+import {
+    FC,
+    PropsWithChildren,
 } from 'react';
 import {
     NavLink,
     Outlet,
-} from 'react-router-dom';
+} from '@agros/core/lib/router';
 import { LocaleService } from '@modules/locale/locale.service';
 import ThemeProvider from '@mui/material/styles/ThemeProvider';
 import { StyledEngineProvider } from '@mui/material/styles';

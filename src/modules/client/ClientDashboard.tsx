@@ -12,7 +12,7 @@ import {
     NavLink,
     Outlet,
     useParams,
-} from 'react-router-dom';
+} from '@agros/core/lib/router';
 import { LocaleService } from '@modules/locale/locale.service';
 import { StoreService } from '@modules/store/store.service';
 import { ClientMenuItemComponent } from '@modules/client/client-menu-item.component';

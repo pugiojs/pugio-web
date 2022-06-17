@@ -14,7 +14,7 @@ import Typography from '@mui/material/Typography';
 import TextField from '@mui/material/TextField';
 import styled from '@mui/material/styles/styled';
 import SimpleBar from 'simplebar-react';
-import { useParams } from 'react-router-dom';
+import { useParams } from '@agros/core/lib/router';
 import { useRequest } from 'ahooks';
 import {
     getContainer,

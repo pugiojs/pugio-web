@@ -1,8 +1,4 @@
-import {
-    FC,
-    useEffect,
-    useState,
-} from 'react';
+import { FC } from 'react';
 import Avatar from '@mui/material/Avatar';
 import Box, { BoxProps } from '@mui/material/Box';
 import Button from '@mui/material/Button';
@@ -13,7 +9,11 @@ import ListItemButton from '@mui/material/ListItemButton';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import TextField from '@mui/material/TextField';
-import { getContainer } from '@agros/core';
+import {
+    getContainer,
+    useEffect,
+    useState,
+} from '@agros/core';
 import { LocaleService } from '@modules/locale/locale.service';
 import SimpleBar from 'simplebar-react';
 import _ from 'lodash';

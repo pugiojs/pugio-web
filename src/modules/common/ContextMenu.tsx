@@ -1,7 +1,5 @@
 import {
     FC,
-    useRef,
-    useState,
     MouseEvent as ReactMouseEvent,
 } from 'react';
 import Box from '@mui/material/Box';
@@ -10,6 +8,10 @@ import { ContextMenuProps } from '@modules/common/context-menu.interface';
 import clsx from 'clsx';
 import styled from '@mui/material/styles/styled';
 import _ from 'lodash';
+import {
+    useRef,
+    useState,
+} from '@agros/core';
 
 const StyledMuiPopover = styled(MuiPopover)(({ theme }) => {
     return `

@@ -1,5 +1,5 @@
 import { Component } from '@agros/core';
-import { Navigate } from 'react-router-dom';
+import { Navigate } from '@agros/core/lib/router';
 
 @Component({
     component: () => <Navigate to="/clients/list" />,

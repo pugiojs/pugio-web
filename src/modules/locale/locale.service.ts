@@ -1,10 +1,10 @@
 import {
+    Injectable,
     createContext,
     useContext,
     useEffect,
     useState,
-} from 'react';
-import { Injectable } from '@agros/core';
+} from '@agros/core';
 import _ from 'lodash';
 import Mustache from 'mustache';
 import {

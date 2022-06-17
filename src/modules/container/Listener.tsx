@@ -1,11 +1,11 @@
-import { getContainer } from '@agros/core';
 import {
-    FC,
+    getContainer,
     useEffect,
-} from 'react';
+} from '@agros/core';
+import { FC } from 'react';
 import { StoreService } from '@modules/store/store.service';
 import shallow from 'zustand/shallow';
-import { useParams } from 'react-router-dom';
+import { useParams } from '@agros/core/lib/router';
 
 const Listener: FC = () => {
     const container = getContainer(Listener);

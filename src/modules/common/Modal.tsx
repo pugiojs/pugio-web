@@ -1,10 +1,10 @@
-import {
-    createElement,
-    FC,
-    useState,
-} from 'react';
+import { FC } from 'react';
 import { ModalProps } from '@modules/common/modal.interface';
 import Dialog from '@mui/material/Dialog';
+import {
+    createElement,
+    useState,
+} from '@agros/core';
 
 const Modal: FC<ModalProps> = ({
     Trigger,

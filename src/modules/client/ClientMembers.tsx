@@ -26,7 +26,7 @@ import {
     useDebounce,
     useRequest,
 } from 'ahooks';
-import { useParams } from 'react-router-dom';
+import { useParams } from '@agros/core/lib/router';
 import { ClientMemberTab } from '@modules/client/client-members.interface';
 import { LocaleService } from '@modules/locale/locale.service';
 import { LoadingComponent } from '@modules/brand/loading.component';

@@ -1,5 +1,7 @@
-import { lazy } from 'react';
-import { Component } from '@agros/core';
+import {
+    lazy,
+    Component,
+} from '@agros/core';
 import { LocaleService } from '@modules/locale/locale.service';
 import { BrandService } from '@modules/brand/brand.service';
 import { ProfileMenuComponent } from '@modules/profile/profile-menu.component';
