@@ -5,7 +5,7 @@ import Icon from '@mui/material/Icon';
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
-import { getContainer } from 'khamsa';
+import { getContainer } from '@agros/core';
 import { LocaleService } from '@modules/locale/locale.service';
 import _ from 'lodash';
 import { PopoverProps } from '@modules/common/popover.interface';

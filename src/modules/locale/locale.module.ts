@@ -1,7 +1,7 @@
 import {
     Global,
     Module,
-} from 'khamsa';
+} from '@agros/core';
 import { LocaleService } from '@modules/locale/locale.service';
 
 @Global()

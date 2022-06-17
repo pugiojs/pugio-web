@@ -1,4 +1,4 @@
-import { Component } from 'khamsa';
+import { Component } from '@agros/core';
 import UserCard from '@modules/user/UserCard';
 import { UtilsService } from '@modules/utils/utils.service';
 

@@ -1,16 +1,16 @@
+import { FC } from 'react';
+import Box from '@mui/material/Box';
+import Icon from '@mui/material/Icon';
+import IconButton from '@mui/material/IconButton';
+import Button from '@mui/material/Button';
 import {
-    FC,
+    getContainer,
     useEffect,
     useRef,
     useState,
     useCallback,
     Suspense,
-} from 'react';
-import Box from '@mui/material/Box';
-import Icon from '@mui/material/Icon';
-import IconButton from '@mui/material/IconButton';
-import Button from '@mui/material/Button';
-import { getContainer } from 'khamsa';
+} from '@agros/core';
 import { TabProps } from '@modules/tab/tab.interface';
 import { TabComponent } from '@modules/tab/tab.component';
 import { ChannelPanelComponent } from '@modules/channel/channel-panel.component';
@@ -34,7 +34,7 @@ import {
 import { ClientService } from '@modules/client/client.service';
 import { ChannelService } from '@modules/channel/channel.service';
 import { UtilsService } from '@modules/utils/utils.service';
-import { useParams } from 'react-router-dom';
+import { useParams } from '@agros/core/lib/router';
 import { List } from 'immutable';
 import { useDebounce } from 'ahooks';
 import { ExceptionProps } from '@modules/brand/exception.interface';

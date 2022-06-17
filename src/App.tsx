@@ -1,9 +1,9 @@
-import { getContainer } from 'khamsa';
 import {
-    FC,
+    getContainer,
     useEffect,
     useState,
-} from 'react';
+} from '@agros/core';
+import { FC } from 'react';
 import { LocaleService } from '@modules/locale/locale.service';
 import { ContainerComponent } from '@modules/container/container.component';
 import { ContainerProps } from '@modules/container/container.interface';

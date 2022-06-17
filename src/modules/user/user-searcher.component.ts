@@ -1,4 +1,4 @@
-import { Component } from 'khamsa';
+import { Component } from '@agros/core';
 import UserSearcher from '@modules/user/UserSearcher';
 import { PopoverComponent } from '@modules/common/popover.component';
 import { UtilsService } from '@modules/utils/utils.service';

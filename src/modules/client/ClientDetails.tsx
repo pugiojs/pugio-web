@@ -1,9 +1,6 @@
 import {
     FC,
     ReactNode,
-    useCallback,
-    useEffect,
-    useState,
 } from 'react';
 import Box, { BoxProps } from '@mui/material/Box';
 import Button from '@mui/material/Button';
@@ -17,9 +14,14 @@ import Typography from '@mui/material/Typography';
 import TextField from '@mui/material/TextField';
 import styled from '@mui/material/styles/styled';
 import SimpleBar from 'simplebar-react';
-import { useParams } from 'react-router-dom';
+import { useParams } from '@agros/core/lib/router';
 import { useRequest } from 'ahooks';
-import { getContainer } from 'khamsa';
+import {
+    getContainer,
+    useCallback,
+    useEffect,
+    useState,
+} from '@agros/core';
 import { ClientService } from '@modules/client/client.service';
 import { LoadingComponent } from '@modules/brand/loading.component';
 import {

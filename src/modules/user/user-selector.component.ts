@@ -1,4 +1,4 @@
-import { Component } from 'khamsa';
+import { Component } from '@agros/core';
 import { LocaleService } from '@modules/locale/locale.service';
 import { UserCardComponent } from '@modules/user/user-card.component';
 import { ExceptionComponent } from '@modules/brand/exception.component';

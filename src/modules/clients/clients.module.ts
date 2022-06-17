@@ -1,4 +1,4 @@
-import { Module } from 'khamsa';
+import { Module } from '@agros/core';
 import { ClientsDropdownComponent } from '@modules/clients/clients-dropdown.component';
 import { ClientsService } from '@modules/clients/clients.service';
 import { StoreModule } from '@modules/store/store.module';

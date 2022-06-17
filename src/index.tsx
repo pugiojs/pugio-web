@@ -1,19 +1,16 @@
-import ReactDOM from 'react-dom';
-import {
-    App as KhamsaApp,
-    router,
-} from 'khamsa';
+import { bootstrap } from '@agros/core';
+import { HashRouter } from '@agros/core/lib/router';
 import reportWebVitals from '@/report-web-vitals';
 import { AppModule } from '@/app.module';
 import '@/index.less';
 
-ReactDOM.render(
-    <KhamsaApp
-        module={AppModule}
-        RouterComponent={router.HashRouter}
-    />,
-    document.getElementById('root'),
-);
+bootstrap([
+    {
+        module: AppModule,
+        RouterComponent: HashRouter,
+        container: document.getElementById('root'),
+    },
+]);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

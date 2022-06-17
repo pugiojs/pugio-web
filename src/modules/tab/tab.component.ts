@@ -1,4 +1,4 @@
-import { Component } from 'khamsa';
+import { Component } from '@agros/core';
 import { LocaleService } from '@modules/locale/locale.service';
 import Tab from '@modules/tab/Tab';
 import { LoadingComponent } from '@modules/brand/loading.component';

@@ -1,7 +1,5 @@
 import {
     FC,
-    useState,
-    useEffect,
     MouseEvent,
 } from 'react';
 import {
@@ -18,7 +16,11 @@ import styled from '@mui/material/styles/styled';
 import clsx from 'clsx';
 import _ from 'lodash';
 import Color from 'color';
-import { getContainer } from 'khamsa';
+import {
+    getContainer,
+    useState,
+    useEffect,
+} from '@agros/core';
 import Menu from '@mui/material/Menu';
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItemText from '@mui/material/ListItemText';

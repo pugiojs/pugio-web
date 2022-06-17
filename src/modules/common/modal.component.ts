@@ -1,4 +1,4 @@
-import { Component } from 'khamsa';
+import { Component } from '@agros/core';
 import Modal from '@modules/common/Modal';
 
 @Component({

@@ -1,9 +1,9 @@
+import { FC } from 'react';
 import {
-    FC,
     useEffect,
     useRef,
     useState,
-} from 'react';
+} from '@agros/core';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import clsx from 'clsx';

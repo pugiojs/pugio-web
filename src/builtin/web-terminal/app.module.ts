@@ -1,4 +1,4 @@
-import { Module } from 'khamsa';
+import { Module } from '@agros/core';
 import { AppComponent } from '@builtin:web-terminal/app.component';
 import { RequestModule } from '@modules/request/request.module';
 import { AppService } from '@builtin:web-terminal/app.service';

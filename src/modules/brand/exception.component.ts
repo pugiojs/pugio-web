@@ -1,4 +1,4 @@
-import { Component } from 'khamsa';
+import { Component } from '@agros/core';
 import Exception from '@modules/brand/Exception';
 import { BrandService } from '@modules/brand/brand.service';
 

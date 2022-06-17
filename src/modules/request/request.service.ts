@@ -1,4 +1,4 @@
-import { Injectable } from 'khamsa';
+import { Injectable } from '@agros/core';
 import { UtilsService } from '@modules/utils/utils.service';
 import { RequestService as PugioRequest } from '@pugio/request';
 import _ from 'lodash';

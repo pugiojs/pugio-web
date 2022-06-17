@@ -1,4 +1,4 @@
-import { Module } from 'khamsa';
+import { Module } from '@agros/core';
 import { ContainerComponent } from '@modules/container/container.component';
 import { ListenerComponent } from '@modules/container/listener.component';
 

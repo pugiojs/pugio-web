@@ -1,7 +1,7 @@
 import {
     Global,
     Module,
-} from 'khamsa';
+} from '@agros/core';
 import { RequestService } from '@modules/request/request.service';
 
 @Global()

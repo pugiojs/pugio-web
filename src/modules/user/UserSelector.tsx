@@ -1,8 +1,4 @@
-import {
-    FC,
-    useEffect,
-    useState,
-} from 'react';
+import { FC } from 'react';
 import { UserSelectorProps } from '@modules/user/user-selector.interface';
 import Box from '@mui/material/Box';
 import Dialog from '@mui/material/Dialog';
@@ -12,7 +8,11 @@ import DialogContent from '@mui/material/DialogContent';
 import Button from '@mui/material/Button';
 import Icon from '@mui/material/Icon';
 import IconButton from '@mui/material/IconButton';
-import { getContainer } from 'khamsa';
+import {
+    getContainer,
+    useEffect,
+    useState,
+} from '@agros/core';
 import { LocaleService } from '@modules/locale/locale.service';
 import SimpleBar from 'simplebar-react';
 import clsx from 'clsx';

@@ -1,4 +1,4 @@
-import { Injectable } from 'khamsa';
+import { Injectable } from '@agros/core';
 import { RequestService } from '@modules/request/request.service';
 import {
     QueryClientsRequestOptions,

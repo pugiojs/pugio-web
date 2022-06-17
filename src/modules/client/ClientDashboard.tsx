@@ -1,18 +1,18 @@
+import { FC } from 'react';
+import Box from '@mui/material/Box';
+import Icon from '@mui/material/Icon';
 import {
-    FC,
+    getContainer,
     useCallback,
     useEffect,
     useRef,
     useState,
-} from 'react';
-import Box from '@mui/material/Box';
-import Icon from '@mui/material/Icon';
-import { getContainer } from 'khamsa';
+} from '@agros/core';
 import {
     NavLink,
     Outlet,
     useParams,
-} from 'react-router-dom';
+} from '@agros/core/lib/router';
 import { LocaleService } from '@modules/locale/locale.service';
 import { StoreService } from '@modules/store/store.service';
 import { ClientMenuItemComponent } from '@modules/client/client-menu-item.component';

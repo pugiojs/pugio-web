@@ -1,7 +1,7 @@
 import {
     Global,
     Module,
-} from 'khamsa';
+} from '@agros/core';
 import { ConfigService } from '@modules/config/config.service';
 
 @Global()

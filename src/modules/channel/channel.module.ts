@@ -1,4 +1,4 @@
-import { Module } from 'khamsa';
+import { Module } from '@agros/core';
 import { ChannelPanelComponent } from '@modules/channel/channel-panel.component';
 import { ChannelService } from '@modules/channel/channel.service';
 import { ChannelListComponent } from '@modules/channel/channel-list.component';

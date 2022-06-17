@@ -1,7 +1,5 @@
 import {
-    cloneElement,
     FC,
-    useState,
     MouseEvent,
 } from 'react';
 import Avatar from '@mui/material/Avatar';
@@ -19,7 +17,11 @@ import {
     UserCardMenuProps,
 } from '@modules/user/user-card.interface';
 import clsx from 'clsx';
-import { getContainer } from 'khamsa';
+import {
+    cloneElement,
+    getContainer,
+    useState,
+} from '@agros/core';
 import { UtilsService } from '@modules/utils/utils.service';
 import _ from 'lodash';
 import styled from '@mui/material/styles/styled';

@@ -1,13 +1,13 @@
 import Box from '@mui/material/Box';
 import styled from '@mui/material/styles/styled';
-import { getContainer } from 'khamsa';
 import {
-    FC,
+    getContainer,
     useCallback,
     useEffect,
     useRef,
     useState,
-} from 'react';
+} from '@agros/core';
+import { FC } from 'react';
 import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
 import Icon from '@mui/material/Icon';
@@ -18,7 +18,7 @@ import Divider from '@mui/material/Divider';
 import { ExceptionComponent } from '@modules/brand/exception.component';
 import { LocaleService } from '@modules/locale/locale.service';
 import { ExceptionProps } from '@modules/brand/exception.interface';
-import { useParams } from 'react-router-dom';
+import { useParams } from '@agros/core/lib/router';
 import { StoreService } from '@modules/store/store.service';
 import _ from 'lodash';
 import SimpleBar from 'simplebar-react';

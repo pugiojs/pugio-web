@@ -1,7 +1,7 @@
 import {
     Global,
     Module,
-} from 'khamsa';
+} from '@agros/core';
 import { PopoverComponent } from '@modules/common/popover.component';
 import { FormItemComponent } from '@modules/common/form-item.component';
 import { ContextMenuComponent } from '@modules/common/context-menu.component';

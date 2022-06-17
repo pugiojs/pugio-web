@@ -1,4 +1,9 @@
-import { Injectable } from 'khamsa';
+import {
+    Injectable,
+    useCallback,
+    useEffect,
+    useState,
+} from '@agros/core';
 import { CaseTransformerService } from '@pugio/case-transformer';
 import _ from 'lodash';
 import {
@@ -6,13 +11,8 @@ import {
     PaginationResponseData,
     TDateRange,
 } from '@modules/request/request.interface';
-import { Location } from 'react-router-dom';
-import {
-    FC,
-    useCallback,
-    useEffect,
-    useState,
-} from 'react';
+import { Location } from '@agros/core/lib/router';
+import { FC } from 'react';
 import {
     LoadedChannelProps,
     ObservableChannelConfig,

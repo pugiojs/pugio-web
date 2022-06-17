@@ -1,8 +1,10 @@
-import { Injectable } from 'khamsa';
+import {
+    createElement,
+    Injectable,
+} from '@agros/core';
 import { ThemeOptions } from '@mui/material/styles';
 import createTheme from '@mui/material/styles/createTheme';
 import { createMuiTheme } from '@lenconda/shuffle-mui-theme';
-import { createElement } from 'react';
 import Box from '@mui/material/Box';
 import { ConfigService } from '@modules/config/config.service';
 import * as vectors from '@modules/brand/vectors';

@@ -1,4 +1,4 @@
-import { Component } from 'khamsa';
+import { Component } from '@agros/core';
 import ChannelListItem from '@modules/channel/ChannelListItem';
 import { LocaleService } from '@modules/locale/locale.service';
 import { UtilsService } from '@modules/utils/utils.service';

@@ -1,7 +1,7 @@
 import {
     Global,
     Module,
-} from 'khamsa';
+} from '@agros/core';
 import { UtilsService } from '@modules/utils/utils.service';
 
 @Global()
