@@ -6,7 +6,7 @@ const {
     addWebpackExternals,
     overrideDevServer,
     addWebpackModuleRule,
-} = require('customize-cra');
+} = require('@agros/build-scripts/lib/customize');
 const addLessLoader = require('customize-cra-less-loader');
 const path = require('path');
 const fs = require('fs');
